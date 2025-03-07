@@ -1,0 +1,15 @@
+body{background-color:#000000;}
+h1{font-size: 140px; text-align: center; animation: rainbow 6s linear infinite;}
+@keyframes rainbow {
+    0% { color: red; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    42% { color: green; }
+    57% { color: blue; }
+    71% { color: purple; }
+    85% { color: red; }
+    100% { color: orange; }
+}
+p1{color: #ffffff;}
+h2{ color: #ff0000; font-size: 120px; text-align:center;}
+.body2{background-color: rgb(0, 0, 0);}
