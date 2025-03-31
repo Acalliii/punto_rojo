@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    flex-direction: column;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grid {
+    column-count: 4;
+    column-gap: 10px;
+    width: 100%;
+    max-width: 1200px;
+}
+.mask {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    border-radius: 10px;
+}
+.mask:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 800px) {
+    .grid {
+        column-count: 2;
+    }
+}
+@media (max-width: 500px) {
+    .grid {
+        column-count: 1;
+    }
+}
