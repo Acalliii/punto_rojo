@@ -1,0 +1,21 @@
+body {
+    background: linear-gradient(to bottom,
+      #E40303 0%,
+      #FF8C00 20%,
+      #FFED00 35%,
+      #008026 55%,
+      #004DFF 75%,
+      #750787 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+  }
+  

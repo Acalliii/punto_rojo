@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(to bottom, 
+      #D60280 0%, 
+      #D60270 30%, 
+      #9B4F96 50%, 
+      #4A4BB3 70%, 
+      #0038A8 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+  }
