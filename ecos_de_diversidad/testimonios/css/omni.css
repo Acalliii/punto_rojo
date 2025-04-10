@@ -2,9 +2,9 @@ body {
     background: linear-gradient(to bottom,
       #FF9BCD 0%,
       #FF53C2 25%,
-      #FFFFFF 50%,
-      #6D9FFF 75%,
-      #3A4EED 100%);
+      #3366CC 50%,
+      #6D9FFF 100%,
+      #3A4EED 75%);
     background-repeat: no-repeat;
     height: 100vh;
     margin: 0;
