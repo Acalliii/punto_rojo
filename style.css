@@ -73,8 +73,15 @@ h1{animation: rainbow 6s linear infinite;}
 .titulo span:nth-child(17) { transform: translateX(-50%) rotate(120deg) translateY(-250px); }
 .titulo span:nth-child(18) { transform: translateX(-50%) rotate(135deg) translateY(-250px); }
   
+.amatic-sc-regular {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
   .amatic-sc-bold {
     font-family: "Amatic SC", sans-serif;
     font-weight: 700;
     font-style: normal;
   }
+  
