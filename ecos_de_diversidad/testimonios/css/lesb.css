@@ -1,22 +1,81 @@
-body {
-    background: linear-gradient(to bottom,
-      #D52D00 0%,
-      #EF7627 15%,
-      #FF9A56 30%,
-      #FFFFFF 45%,
-      #D162A4 60%,
-      #B55690 75%,
-      #A30262 100%);
-    background-repeat: no-repeat;
-    height: 100vh;
+  body {
     margin: 0;
-
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-panel {
+    width: 75%;
+    position: relative;
+    background: linear-gradient(to bottom,
+    #D52D00 0%,
+    #EF7627 15%,
+    #FF9A56 30%,
+    #FFFFFF 45%,
+    #D162A4 60%,
+    #B55690 75%,
+    #A30262 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .centered-image {
+    max-width: 80%;
+    max-height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  
+  .right-panel {
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fefefe;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    margin: 0;
+    overflow-y: auto;
+  }
+  
+  .right-panel h1 {
+    margin-top: 0;
+    font-size: 26px;
+    color: #000000;
+  }
+  
+  .info-box {
+    margin: 10px 0;
     text-align: center;
   }
   
+  .audio-box {
+    margin-bottom: 20px;
+  }
+  
+  .pinterest-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .pinterest-grid img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .pinterest-img:hover {
+    transform: none;
+  }
