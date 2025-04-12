@@ -3,7 +3,7 @@ Repositorio creado del colectivo punto rojo, para trabajar el proyecto integrado
   
 Agradecemos a las personas que nos han brindado sus historias para poder crear este lugar de expresión.  
   
-Programación Web: Sarahi Aixa.  
+Programación Web: Sarahi Rosales.  
 Diseño web: Acalli Nazario.  
 Ilustraciones: Hann "sh4d" Ortega.  
 Redacción y edición de audios: Angy Sánchez.  
