@@ -45,10 +45,10 @@ body {
 
 .header {
     text-align: center;
-    margin-bottom: 20px;
-    font-family: "Amatic SC", sans-serif;
-    font-weight: 700;
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
     font-style: normal;
+    font-size: 30px;
 }
 
 .amatic-sc-regular {
@@ -62,3 +62,10 @@ body {
     font-weight: 700;
     font-style: normal;
   }
+
+  .bokor-regular {
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
