@@ -29,7 +29,7 @@ body {
 }  
 
 .titulo {
-    position: absolute;
+    position: 150px;
     display: block;
 }
 
@@ -61,8 +61,31 @@ body {
     100% { color: violet; }
 }
 
+
+.enlaces-imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 5px; /* Ajusta según la altura de tu título */
+    margin-bottom: 60px; /* Ajusta según la posición del footer */
+    z-index: 1;
+}
+
+.enlaces-imagenes img {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.enlaces-imagenes img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
 footer {
-    position: absolute;
+    position: 50px;
     bottom: 20px;
     font-size: 15px;
     font-family: "Amatic SC", sans-serif;
