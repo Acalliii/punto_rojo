@@ -10,22 +10,44 @@ body {
     flex-direction: column;
 }
 
+.bokor-regular {
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.amatic-sc-regular {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.amatic-sc-bold {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}  
+
 .titulo {
-    position: absolute;
+    position: 150px;
     display: block;
 }
 
 .titulo h1 {
     margin: 0;
-    font-size: 50px;
-    font-family: "Times New Roman", Times, serif;
+    font-size: 100px;
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .titulo-animado {
     text-decoration: none;
     font-weight: bold;
-    font-size: 80px;
-    font-family: "Times New Roman", Times, serif;
+    font-size: 100px;
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
+    font-style: normal;
     animation: rainbowText 7s linear infinite;
 }
 
@@ -37,4 +59,37 @@ body {
     64% { color: blue; }
     80% { color: indigo; }
     100% { color: violet; }
+}
+
+
+.enlaces-imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 5px; /* Ajusta según la altura de tu título */
+    margin-bottom: 60px; /* Ajusta según la posición del footer */
+    z-index: 1;
+}
+
+.enlaces-imagenes img {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.enlaces-imagenes img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+footer {
+    position: 50px;
+    bottom: 20px;
+    font-size: 15px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
 }
